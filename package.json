@@ -1,0 +1,16 @@
+{
+  "name": "tenantsafe",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reproduce a cross-tenant object lookup, then inspect the authorization that stops it.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "analyze": "node run.mjs",
+    "http-lab": "LAB_KIND=tenant node scripts/http-lab.cjs"
+  }
+}

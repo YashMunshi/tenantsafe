@@ -1,0 +1,18 @@
+{
+  "slug": "tenantsafe",
+  "name": "TenantSafe",
+  "field": "Application & product security",
+  "roles": "Application Security Engineer I \u00b7 Product Security Engineer",
+  "headline": "A document ID is not permission.",
+  "description": "Reproduce a cross-tenant object lookup, then inspect the authorization that stops it.",
+  "accent": "#9a3f2f",
+  "pale": "#f5e8e2",
+  "display": "Space Grotesk",
+  "action": "Compare authorization",
+  "guide": [
+    "Request South\u2019s budget as Alice. The vulnerable lookup allows it; the patched path returns 404 with no data.",
+    "Request North\u2019s plan as viewer with update selected. The patched path returns 403.",
+    "Run the local server to test actual cookie-authenticated document routes. The vulnerable route exists only behind an explicit local lab switch."
+  ],
+  "limits": "All documents are fictional. The public comparator accepts synthetic perspectives; actual server-side identity binding is exercised by the separate local HTTP server."
+}
