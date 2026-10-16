@@ -4,7 +4,11 @@ Reproduce a cross-tenant object lookup, then inspect the authorization that stop
 
 **Field:** Application & product security  
 **Relevant roles:** Application Security Engineer I · Product Security Engineer  
-**Status:** working prototype; hosting status is tracked separately.
+**Status:** working prototype, published on GitHub and Vercel.
+
+[**Open the live interactive lab**](https://tenantsafe.vercel.app/)
+
+The hosted lab runs synthetic exercises in your browser. See the scope below for local integration exercises and limitations.
 
 ## Run
 
