@@ -40,9 +40,7 @@ node run.mjs input.json
 - Guided controls plus editable/importable JSON input (maximum 1 MB).
 - Computed decisions, supporting records, explicit empty/error states, and
   downloadable evidence containing the input and limitations.
-- Self-hosted Space Grotesk headings and DM Sans text; 18px body text,
-  16px supporting text, 15px technical labels, keyboard focus, reduced motion,
-  and responsive evidence rows.
+- Individual visual identity: Whiteboard boundary studio, with self-hosted Rubik and DM Sans, a custom masthead, readable type, visible keyboard focus, and responsive data views.
 - Independent boundary and regression tests in `tests/`.
 
 ## Scope and limitations
@@ -109,3 +107,7 @@ returns an isolated changed copy; it does not persist a document update.
 The server ignores any caller-supplied actor field. For the deliberate local
 comparison only, run `ENABLE_VULNERABLE=1 npm run http-lab` and request
 `/vulnerable/south-budget`. The vulnerable route is disabled by default.
+
+## Visual identity
+
+See [DESIGN.md](DESIGN.md) for this project’s typography, palette, header, and composition.
